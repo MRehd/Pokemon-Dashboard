@@ -111,6 +111,8 @@ for attacker in data.index:
         total_score += score
 
     data.loc[attacker, "SCORE"] = total_score
+    
+print('simulations are ready!')
 
 # Normalizing the SCORE
 norm = data["SCORE"].values
