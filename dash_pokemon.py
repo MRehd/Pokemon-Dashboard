@@ -270,6 +270,8 @@ fig7 = make_hist("NORM_SCORE")
 
 app = dash.Dash()
 
+server = app.server
+
 app.layout = html.Div(
     [
         html.Img(
