@@ -1,1 +1,1 @@
-web: gunicorn dash_pokemon:app
+web: gunicorn app:server
